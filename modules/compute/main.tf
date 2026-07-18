@@ -1,7 +1,7 @@
 # Resolve the latest Ubuntu 26.04 LTS Minimal image from Ubuntu public project.
 data "google_compute_image" "ubuntu_minimal_2604" {
   project = "ubuntu-os-cloud"
-  family  = "ubuntu-minimal-2604-lts"
+  family  = "ubuntu-minimal-2604-lts-amd64"
 }
 
 locals {

@@ -3,7 +3,7 @@ service_account_email = "infra-admin@gcp-dev-july-2026.iam.gserviceaccount.com"
 region                = "us-central1"
 zone                  = "us-central1-a"
 
-vpc_name           = "GCP-VPC"
+vpc_name           = "gcp-vpc"
 vpc_cidr           = "192.168.0.0/19"
 public_subnet_name = "gcp-public-subnet"
 public_subnet_cidr = "192.168.0.0/24"
