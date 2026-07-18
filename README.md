@@ -68,8 +68,8 @@ Run from the repository root:
 terraform fmt -recursive
 terraform init
 terraform validate
-terraform plan -var-file="GCP-VPC.tfvars"
-terraform apply -var-file="GCP-VPC.tfvars"
+terraform plan -var-file="VPC.tfvars"
+terraform apply -var-file="VPC.tfvars"
 ```
 
 Destroy when needed:

@@ -21,7 +21,7 @@ pipeline {
         )
         string(
             name: 'VAR_FILE',
-            defaultValue: 'GCP-VPC.tfvars',
+            defaultValue: 'VPC.tfvars',
             description: 'Terraform var file to use for plan/apply/destroy.'
         )
     }
@@ -30,7 +30,7 @@ pipeline {
         GOOGLE_CLOUD_PROJECT = 'gcp-dev-july-2026'
         REGION               = 'us-central1'
         ZONE                 = 'us-central1-a'
-        TF_VERSION           = '1.13.0'
+        TF_VERSION           = '1.15.0'
         TF_IN_AUTOMATION     = 'true'
         TF_INPUT             = 'false'
         PATH                 = "${WORKSPACE}/.bin:${env.PATH}"
